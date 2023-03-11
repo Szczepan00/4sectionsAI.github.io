@@ -1,0 +1,28 @@
+.description {
+  @media screen and (min-width: 1025px) {
+    max-width: 467px;
+  }
+  & &__title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 16px;
+
+    @media screen and (min-width: 769px) and (max-width: 1024px){
+      font-size: 48px;
+      line-height: 56px;
+    }
+
+    @media screen and (min-width: 1025px) {
+      font-size: 48px;
+      line-height: 58px;
+    }
+  }
+
+  & &__info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+}
